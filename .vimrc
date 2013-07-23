@@ -1,4 +1,8 @@
-set history=700
+set nocompatible
+set nobackup
+set nowritebackup
+
+set history=100
 
 set autoread
 
@@ -13,12 +17,11 @@ set ignorecase
 set smartcase
 set hlsearch
 set incsearch
+set wrapscan
 set lazyredraw
 set showmatch
 
 syntax enable
-
-set nobackup
 
 " Use spaces instead of tabs
 set expandtab
@@ -27,7 +30,17 @@ set smarttab
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
+set expandtab
 
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+
+" Color scheme
+colorscheme github
+highlight NonText guibg=#060606
+highlight Folded  guibg=#0A0A0A guifg=#9090D0
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
