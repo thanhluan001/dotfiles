@@ -12,6 +12,7 @@ set autoread
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=10
 set nu
+filetype plugin on
 
 set ignorecase
 set smartcase
@@ -37,7 +38,7 @@ set si "Smart indent
 set wrap "Wrap lines
 
 " Color scheme
-colorscheme github
+colorscheme evening 
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
