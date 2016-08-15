@@ -6,12 +6,16 @@ configure your `bash` and `emacs` development environment as follows:
 ```sh
 cd $HOME
 git clone https://github.com/startup-class/dotfiles.git
-ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
+ln -sb dotfiles/.tmux.conf .
+ln -sb dotfiles/.vimrc .
+
+Extra: 
 mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
+ln -sb dotfiles/.screenrc .
+ln -sb dotfiles/.bashrc_custom .
 ```
 
 See also http://github.com/startup-class/setup to install prerequisite

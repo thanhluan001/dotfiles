@@ -10,7 +10,7 @@ set autoread
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
-set so=10
+set so=6
 set nu
 filetype plugin on
 
@@ -27,7 +27,7 @@ syntax enable
 " Use spaces instead of tabs
 set expandtab
 set smarttab
-
+    
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
@@ -38,10 +38,13 @@ set si "Smart indent
 set wrap "Wrap lines
 
 " Color scheme
-colorscheme evening 
+colorscheme default 
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
+
+set ls=2
+hi StatusLine ctermfg=0
