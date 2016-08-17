@@ -5,7 +5,7 @@ configure your `bash` and `emacs` development environment as follows:
 
 ```sh
 cd $HOME
-git clone https://github.com/startup-class/dotfiles.git
+git clone https://github.com/thanhluan001/dotfiles.git
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.tmux.conf .
