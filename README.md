@@ -18,9 +18,11 @@ ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bashrc_custom .
 ```
 
-See also http://github.com/startup-class/setup to install prerequisite
-programs. If all goes well, in addition to a more useful prompt, now you can
-do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
-REPL, among many other features. See the
-[Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
-for more details.
+## Atom
+(https://discuss.atom.io/t/installed-packages-list-into-single-file/12227/2)
+
+```
+ apm install --packages-file package-list.txt    (install stuff)
+ 
+ apm list --installed --bare > package-list.txt  (put stuffs in the configuration file)
+```
