@@ -1,0 +1,13 @@
+atom-beautify@0.29.11
+auto-detect-indentation@1.2.0
+file-icons@1.7.19
+gaia-dark-syntax@1.0.0
+git-plus@5.16.2
+highlight-selected@0.11.2
+merge-conflicts@1.4.4
+minimap@4.24.7
+minimap-hide@0.3.0
+minimap-highlight-selected@4.4.0
+remote-sync@4.1.2
+
+
