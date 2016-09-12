@@ -48,3 +48,6 @@ set splitright
 
 set ls=2
 hi StatusLine ctermfg=0
+
+" Copy without line number http://stackoverflow.com/questions/5728259/how-to-clear-the-line-number-in-vim-when-copying
+se mouse+=a
